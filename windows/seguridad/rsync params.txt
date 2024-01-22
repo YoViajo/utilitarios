@@ -1,0 +1,1 @@
+--exclude-from='%USERPROFILE%\Downloads\a\excluir-dirs.txt'
