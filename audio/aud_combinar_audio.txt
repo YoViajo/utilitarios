@@ -1,0 +1,11 @@
+https://linuxconfig.org/joining-mp3-music-files-to-a-single-track
+
+// Instalar software
+$ sudo apt install mp3wrap ffmpeg normalize-audio
+
+// Ecualizar el volumen de todos los archivos MP3 antes de combinarlos
+normalize-audio -m *.mp3
+
+// Combinar varios archivos MP3
+$ mp3wrap Campfire_Noise_combinado2x.mp3 Campfire_Noise_ini.mp3 Campfire_Noise_fin.mp3
+
