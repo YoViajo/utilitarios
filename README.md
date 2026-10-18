@@ -1,5 +1,5 @@
 # UTILITARIOS
-Scripts y notas para tareas comunes del sistema: audio, video, Linux y Windows.
+Scripts y notas para tareas comunes del sistema: audio, video, Linux, Windows y datos.
 
 <details>
 <summary><b>Audio</b> (4 archivos)</summary>
@@ -79,4 +79,13 @@ Ver el [README de la carpeta](windows/README.md).
 - [Parámetros de rsync](windows/seguridad/rsync%20params.txt) — exclusión de directorios desde un archivo
 </details>
 
-Reúne los repositorios audio, video, linux y windows (archivados).
+<details>
+<summary><b>Datos</b> (5 archivos)</summary>
+
+- [Excel a CSV](datos/excel_a_csv/excel_a_csv.py) — convierte una hoja de un libro .xlsx a CSV (con su `requirements.txt`)
+- [Buscar texto en libros de Excel](datos/buscar_texto_xls/buscar_texto_xls.R) — en R, lista los archivos y hojas .xls/.xlsx de una carpeta que contienen un texto
+- [Respaldar PostgreSQL](datos/respaldo_postgresql/respaldar.sh) — respalda una base con pg_dump en un archivo .sql.gz
+- [Restaurar PostgreSQL](datos/respaldo_postgresql/restaurar.sh) — restaura un respaldo .sql.gz en una base
+</details>
+
+Reúne los repositorios audio, video, linux y windows (archivados), y utilidades de datos.
