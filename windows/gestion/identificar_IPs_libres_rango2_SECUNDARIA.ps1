@@ -9,7 +9,7 @@ $fin = 80
 $ipBase = "192.168.3."
 
 # El archivo donde guardarás las direcciones IP no asignadas
-$rutaArchivo = "%USERPROFILE%\Documents\IPs\IPsNoAsignadas_rango2.txt"
+$rutaArchivo = "$env:USERPROFILE\Documents\IPs\IPsNoAsignadas_rango2.txt"
 
 # Si el archivo ya existe, borra el contenido
 if (Test-Path $rutaArchivo) {
