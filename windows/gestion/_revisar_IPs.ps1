@@ -8,4 +8,4 @@ $script3 = "$env:USERPROFILE\Documents\IPs\identificar_IPs_libres_rango3_CABLEAD
 # Ejecutar los scripts
 Invoke-Expression $script1
 Invoke-Expression $script2
-Invoke-Expression $script3
+Invoke-Expression $script3
