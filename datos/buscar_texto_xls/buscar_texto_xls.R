@@ -11,7 +11,7 @@ library(purrr)
 library(fs)
 
 buscar_subcadena <- function(subcadena, carpeta = ".") {
-  archivos <- fs::dir_ls(path = carpeta, regexp = "\.xlsx?$", type = "file")
+  archivos <- fs::dir_ls(path = carpeta, regexp = "\\.xlsx?$", type = "file")
   # Se ignoran los temporales de Excel (~$...)
   archivos <- archivos[!startsWith(basename(archivos), "~$")]
 
