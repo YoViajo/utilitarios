@@ -1,0 +1,1 @@
+ffmpeg -i video.mp4 -vf subtitles=subtit.srt salida.mp4
