@@ -34,7 +34,7 @@ Ver el [README de la carpeta](video/README.md).
 </details>
 
 <details>
-<summary><b>Linux</b> (27 archivos)</summary>
+<summary><b>Linux</b> (26 archivos)</summary>
 
 Ver el [README de la carpeta](linux/README.md).
 
@@ -48,7 +48,6 @@ Ver el [README de la carpeta](linux/README.md).
 - [Montar unidades en la nube](linux/gestion/01/rclone%20montar%20unidades%20nube.txt) — montaje de OneDrive, Dropbox y otros con Rclone
 - [Apuntes de ClamAV](linux/seguridad/ClamAV%20antivirus%20apuntes.txt) — actualización de firmas y análisis con el antivirus
 - [Opciones adicionales de rsync](linux/seguridad/rsync%20opciones%20adicionales.txt) — exclusión de directorios desde un archivo
-- [wifu.sh](linux/seguridad/wifu.sh) — script de terceros para auditoría de redes WiFi con la suite Aircrack-ng
 - [Montar partición de fotos](linux/shell/01/montar_fotos.txt) — montaje de una partición NTFS
 - [Montar partición Windows](linux/shell/01/montar_part_windows.txt) — montaje de la partición de Windows
 - [Mover archivos GPX](linux/shell/02/mover_gpx_Rk.sh) — traslada archivos GPX de una unidad en la nube a un directorio local
@@ -57,7 +56,7 @@ Ver el [README de la carpeta](linux/README.md).
 </details>
 
 <details>
-<summary><b>Windows</b> (24 archivos)</summary>
+<summary><b>Windows</b> (19 archivos)</summary>
 
 Ver el [README de la carpeta](windows/README.md).
 
@@ -69,16 +68,15 @@ Ver el [README de la carpeta](windows/README.md).
 - [elim_arch_tmp.bat](windows/gestion/elim_arch_tmp.bat) — borra los archivos temporales de Office (`~$*`)
 - [elim_dir_vacios.ps1](windows/gestion/elim_dir_vacios.ps1) — elimina directorios vacíos
 - [_revisar_IPs.ps1](windows/gestion/_revisar_IPs.ps1) — ejecuta en secuencia los tres escaneos de IP libres
-- [identificar_IPs_libres_rango1_INALAMBRICA.ps1](windows/gestion/identificar_IPs_libres_rango1_INALAMBRICA.ps1) — busca IP libres en el rango inalámbrico
-- [identificar_IPs_libres_rango2_SECUNDARIA.ps1](windows/gestion/identificar_IPs_libres_rango2_SECUNDARIA.ps1) — busca IP libres en el rango secundario
-- [identificar_IPs_libres_rango3_CABLEADA.ps1](windows/gestion/identificar_IPs_libres_rango3_CABLEADA.ps1) — busca IP libres en el rango cableado
+- [identificar_IPs_libres_rango1_INALAMBRICA.ps1](windows/gestion/identificar_IPs_libres_rango1_INALAMBRICA.ps1) — busca IP libres en el rango 1 (inalámbrico)
+- [identificar_IPs_libres_rango2_SECUNDARIA.ps1](windows/gestion/identificar_IPs_libres_rango2_SECUNDARIA.ps1) — busca IP libres en el rango 2 (secundario)
+- [identificar_IPs_libres_rango3_CABLEADA.ps1](windows/gestion/identificar_IPs_libres_rango3_CABLEADA.ps1) — busca IP libres en el rango 3 (cableado)
 - [timecmd.bat](windows/gestion/timecmd.bat) — mide el tiempo de ejecución de un comando
 - [Formatear una USB con CMD](windows/gestion/How%20to%20Format%20USB%20drive%20with%20CMD%20in%20Windows%2010.txt) — referencia para formatear unidades USB
 - [Montar unidades en la nube](windows/rclone%20montar%20unidades%20nube.txt) — montaje de servicios en la nube con Rclone
 - [rclone_iniciar_unidades.bat](windows/rclone_iniciar_unidades.bat) — monta las unidades en la nube al iniciar
 - [Respaldo de fotos en OneDrive](windows/seguridad/respaldo_rclone_fotos_onedrive.bat) — sincronización y movimiento de carpetas con Rclone
 - [Parámetros de rsync](windows/seguridad/rsync%20params.txt) — exclusión de directorios desde un archivo
-- [Convertir números a letras en Excel](windows/ms_office/convertir-numeros-a-letras-en-excel/) — macro y guía en PDF
 </details>
 
 Reúne los repositorios audio, video, linux y windows (archivados).
