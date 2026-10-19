@@ -9,7 +9,9 @@ La distribución de referencia es Linux Mint.
 
 **Shell**
 
-[Montar partición Windows](shell/01/montar_part_windows.txt01/)
+[Montar partición Windows](shell/01/montar_part_windows.txt)
+
+[Montar partición de fotos](shell/01/montar_fotos.txt)
 
 [Mover varios archivos de una unidad en la nube a un directorio local](shell/02/mover_gpx_Rk.sh)
 
@@ -19,18 +21,22 @@ La distribución de referencia es Linux Mint.
 
 **Gestión de archivos**
 
-[Comandos comunes](/gestion/shell%20comandos%20comunes.txt)
+[Comandos comunes](gestion/shell%20comandos%20comunes.txt)
 
 [RClone: sincronización con servicios de almacenamiento en la nube](gestion/01/)
 
-[Borrar archivos usando un patrón](/gestion/borrar_arch_segun_patron.sh)
+[Borrar archivos usando un patrón](gestion/borrar_arch_segun_patron.sh)
 
-[Particionar un archivo ZIP dando un tamaño de corte](/gestion/particionar_zip.sh)
+[Particionar un archivo ZIP dando un tamaño de corte](gestion/particionar_zip.sh)
 
-[Renombrar archivos agregando ceros por delante de valores consecutivos](/gestion/renombrar_arch_0delante.sh)
+[Renombrar archivos agregando ceros por delante de valores consecutivos](gestion/renombrar_arch_0delante.sh)
 
-[Agregar ceros en el nombre de un archivo que se renombra](/gestion/renombrar_arch_zeros.sh)
+[Agregar ceros en el nombre de un archivo que se renombra](gestion/renombrar_arch_zeros.sh)
 
-[Renombrar archivos de forma secuencial, dado un valor de partida](/gestion/renombrar_múltiple_secuencial.txt)
+[Renombrar archivos de forma secuencial, dado un valor de partida](gestion/renombrar_m%C3%BAltiple_secuencial.txt)
 
+**Seguridad**
 
+[Antivirus ClamAV](seguridad/ClamAV%20antivirus%20apuntes.txt)
+
+[Opciones adicionales de rsync](seguridad/rsync%20opciones%20adicionales.txt)
